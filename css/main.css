@@ -1,4 +1,9 @@
-p{
+.title{
     font-family: "BPG Arial Caps", sans-serif;
-    font-size: 22px;
+    font-size: 24px;
+}
+
+.desc{
+    font-family: "BPG Arial", sans-serif;
+    font-size: 16px;
 }
