@@ -66,13 +66,3 @@ body{
 
 /*Heading Part Starts Here*/
 
-.headingPart{
-    background-image: url('/imgs/slider.png');
-            width: 100%;
-            height: auto;
-            margin: 0;
-            background-repeat:no-repeat;
-            background-size: cover;
-            background-position: top;
-
-}
