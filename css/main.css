@@ -15,3 +15,9 @@ body{
     line-height: 45px;
     cursor: pointer;
 }
+
+.marketButton:before{
+    content: "\f07a";
+    font-family: "Font Awesome 5 Free";
+    color: red;
+}
