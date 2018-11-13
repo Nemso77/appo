@@ -1,23 +1,17 @@
-.title{
-    font-family: "BPG Arial Caps", sans-serif;
-    font-size: 24px;
-    text-align: center;
-    margin: 50px auto;
+body{
+    background-color: #fff;
 }
 
-.desc{
-    font-family: "BPG Arial", sans-serif;
-    font-size: 16px;
-    text-align: center;
-    width: 80%;
-    margin: 50px auto;
+.sub-nav{
+    background-color: #333;
+    height: 45px;
+    display: block;
+    padding: 0 20%;
 }
 
-.matrix{
-    font-family: "ALKDots", sans-serif;
-    font-size: 55px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+.currencyChanger{
+    font-size: 14px;
+    color: #686868;
+    line-height: 45px;
+    cursor: pointer;
 }
