@@ -178,5 +178,23 @@ li a:hover{
 }
 
 .shopButton{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 6%;
     margin-top: 640px;
+    padding-bottom: 140px;
+}
+
+.shopButton a{
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    color: #737373;
+    text-decoration: none;
+}
+
+.manShop{
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    border: 1px solid #737373;
+    padding: 20px 40px;
 }
