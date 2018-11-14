@@ -178,8 +178,5 @@ li a:hover{
 }
 
 .shopButton{
-    position: absolute;
-    right: 14%;
-    bottom: 140px;
-    top: 90%;
+    margin-top: 640px;
 }
