@@ -135,11 +135,6 @@ li a:hover{
     padding-bottom: 500px;
 }
 
-.searchArea input[type=text] {
-    padding: 6px;
-    font-size: 13px; 
-}
-
 form.search input[type=text] {
     padding: 6px;
     font-size: 13px;
