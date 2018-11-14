@@ -179,11 +179,11 @@ li a:hover{
 
 .shopButton{
     display: flex;
-    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: flex-end;
-    padding-right: 6%;
-    margin-top: 640px;
-    padding-bottom: 140px;
+    padding: 35px 6% 0px 6%;
+    position: relative;
 }
 
 .shopButton a{
@@ -197,4 +197,5 @@ li a:hover{
     font-size: 16px;
     border: 1px solid #737373;
     padding: 20px 40px;
+    background-color: #f8f8f8;
 }
