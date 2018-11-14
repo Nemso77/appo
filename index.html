@@ -11,8 +11,7 @@
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800,900" rel="stylesheet">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="/fonts/monserrat/MontserratAlternates-Bold.otf">
 
     <style type="text/css">
         .headingPart{
@@ -45,8 +44,24 @@
 
         <div class="headingPart">
             <div class="headingInside">
-                <p class="siteTitle"><span style="font-family: 'Montserrat Black', sans-serif;">AVENUE </span> FASHION</p>
-                <ul class="topNavigation"></ul>
+                <div class="siteTitle">
+                    <a href="#"><p class="bold">AVENUE</p></a>    
+                    <a href="#"><p class="regular">FASHION</p></a>    
+                </div>
+                <div class="rightSide">
+                <ul class="topNavigation">
+                    <li class="topNavList"><a href="#"><p>MENS</p><i class="fas fa-angle-down"></i></a></li>
+                    <li class="topNavList"><a href="#"><p>WOMENS</p><i class="fas fa-angle-down"></i></a></li>
+                    <li class="topNavList"><a href="#"><p>THE BRAND</p><i class="fas fa-angle-down"></i></a></li>
+                    <li class="topNavList"><a href="#"><p>LOCAL STORES</p><i class="fas fa-angle-down"></i></a></li>
+                    <li class="topNavList"><a href="#"><p>LOOK BOOK</p><i class="fas fa-angle-down"></i></a></li>
+                </ul>
+                <div class="searchArea">
+                    <form class="search" action="search" method="post">
+                        <input class="searchInput" type="text" placeholder="Search"><i class="fas fa-search"></i>
+                    </form>
+                </div>
+            </div>
             </div>
         </div>
     </header>
