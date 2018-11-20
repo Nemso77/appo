@@ -16,10 +16,10 @@
     <style type="text/css">
         .headingPart{
             background: url('/imgs/slider.png');
-            width: 100%;
+            min-width: 100%;
             min-height: 919px;
             margin: 0;
-            background-repeat: no-repeat center center;
+            background-repeat: no-repeat center;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -30,42 +30,13 @@
 </head>
 <body>
     <header class="header">
-        <div class="sub-nav">
-            <div class="cureencyMeter">
-                <p class="currencyChanger">Currency: GPB</p>
+        <div class="topnav">
+            <a class="currency" href="#">Currency: GBP <i style="color:#777" class="fas fa-angle-down"></i></a>
+            <div class="userArea">
+                <a class="register" href="#">Register</a>
+                <a class="login" href="#">Login</a>
+                <a class="cart" href="#"><i style="color:#fff; padding-right: 15px;" class="fas fa-shopping-cart"></i>Empty<i style="color:#fff; padding-left: 8px" class="fas fa-angle-down"></i></a>  
             </div>
-            <div class="shopArea">
-                <div class="userArea">
-                    <p class="areaButtons">Register</p>
-                    <p class="areaButtons">Sign In</p>
-                </div>
-                <div class="marketArea">
-                    <i class="fas fa-shopping-cart"></i><p class="marketButton">Empty</p><i class="fas fa-chevron-circle-down"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="headingPart">
-            <div class="headingInside">
-                <div class="siteTitle">
-                    <a href="#"><p class="bold">AVENUE</p></a>    
-                    <a href="#"><p class="regular">FASHION</p></a>    
-                </div>
-                <div class="rightSide">
-                    <ul class="topNavigation">
-                        <li class="topNavList"><a href="#"><p>MENS</p><i class="fas fa-angle-down"></i></a></li>
-                        <li class="topNavList"><a href="#"><p>WOMENS</p><i class="fas fa-angle-down"></i></a></li>
-                        <li class="topNavList"><a href="#"><p>THE BRAND</p><i class="fas fa-angle-down"></i></a></li>
-                        <li class="topNavList"><a href="#"><p>LOCAL STORES</p><i class="fas fa-angle-down"></i></a></li>
-                        <li class="topNavList"><a href="#"><p>LOOK BOOK</p><i class="fas fa-angle-down"></i></a></li>
-                    </ul>
-                    <form action="#" class="searchForm">
-                        <input type="text" name="search" placeholder="Search">
-                        <button type="submit"><i class="fas fa-search"></i></button>
-                    </form>
-                </div>
-            </div>
-            <div class="shopButton"><a href="#"><p class="manShop">SHOP MEN'S COLLECTION</p></a></div>
         </div>
     </header>
 </body>
