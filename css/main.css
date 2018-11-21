@@ -149,3 +149,20 @@ a {
         text-align: center;
     }
 }
+
+.main{
+    background-color: #000;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.slider-image{
+    position: absolute;
+    left: 20%;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    z-index: 20;
+}
