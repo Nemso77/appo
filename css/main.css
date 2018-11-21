@@ -231,6 +231,11 @@ a {
     font-size: 20px;
 }
 
+.title a{
+    text-decoration: none;
+    color: #222;
+}
+
 .spantitle{
     font-family: 'monseregular';
     font-weight: 500;
@@ -260,3 +265,41 @@ button[type=submit]{
     border: 1px solid #a7a7a7;
 }
 
+.button-text{
+    text-transform: uppercase;
+    color: #737373;
+    position: absolute;
+    right: 15%;
+    bottom: 10%;
+    font-size: 15px;
+    font-family: 'monse';
+    border: 1.2px solid #737373;
+    padding: 15px 35px;
+    cursor: pointer;
+}
+
+.button-text a{
+    color: #737373;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1160px){
+    .ave-big{
+        font-size: 230px;
+        top: 22%;
+    }
+}
+
+@media only screen and (max-width: 1115px){
+    .ave-big{
+        font-size: 200px;
+        top: 24%;
+    }
+}
+
+@media only screen and (max-width: 1050px){
+    .ave-big{
+        font-size: 170px;
+        top: 26%;
+    }
+}
