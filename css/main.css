@@ -256,6 +256,7 @@ input[type=text]{
 }
 
 button[type=submit]{
-    margin-left: 0px;
+    background-color: #f8f8f8;
+    border: 1px solid #a7a7a7;
 }
 
