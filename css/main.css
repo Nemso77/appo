@@ -10,6 +10,20 @@
     flex-direction: row;
 }
 
+@font-face{
+    font-family: proxy;
+    src: url("/fonts/proximanova/Proxima\ Nova\ Bold.ttf")
+}
+
+@font-face{
+    font-family: monsebold;
+    src: url("/fonts/monserrat/Montserrat-Bold.otf")
+}
+
+@font-face{
+    font-family: monseregular;
+    src: url("/fonts/monserrat/Montserrat-Regular.otf")
+}
 
 /*End Of Base Clases*/
 
@@ -58,6 +72,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .userArea{
@@ -151,18 +166,96 @@ a {
 }
 
 .main{
-    background-color: #000;
+    background-color: #f8f8f8;
     position: relative;
-    display: inline-block;
     width: 100%;
-    height: auto;
+    min-width: 240px;
+    min-height: 460px;
+    z-index: 10;
+    display: flex;
 }
 
 .slider-image{
     position: absolute;
+    background-image: url('imgs/slider-new.png');
     left: 20%;
+    height: 460px;
     top: 0px;
     margin: 0;
     padding: 0;
     z-index: 20;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
+
+.ave-big{
+    position: absolute;
+    z-index: 30;
+    font-size: 250px;
+    font-family: 'proxy';
+    color: #575153;
+    top: 20%;
+    left: 15%;
+    letter-spacing: 170px;
+    text-align: center;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.topbox{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index: 40;
+    margin-top: 45px;
+}
+
+.navlist{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-transform: uppercase;
+}
+
+.title{
+    text-transform: uppercase;
+    font-family: 'monsebold';
+    font-size: 20px;
+}
+
+.spantitle{
+    font-family: 'monseregular';
+    font-weight: 500;
+}
+
+.navanchor a{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.navanchor a:hover {
+    text-decoration: none;
+    color: #00d1d1;
+}
+
+input[type=text]{
+    background-color: #f8f8f8;
+    border: 1px solid #a7a7a7;
+    font-size: 13px;
+}
+
+button[type=submit]{
+    margin-left: 0px;
+}
+
