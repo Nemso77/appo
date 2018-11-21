@@ -131,14 +131,21 @@ a {
     }
 
     .login{
-        text-align: center;
+        padding-bottom: 5px;
+        padding-left: 65px;
     }
 
     .register{
         text-align: center;
+        padding-bottom: 5px;
     }
 
     .cart{
-        padding: 0 auto;
+        font-size: 13px;
+        color: #ffffff;
+        background-color: #00d1d1;
+        display: inline-block;
+        padding: 15px 40px;
+        text-align: center;
     }
 }
