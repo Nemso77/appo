@@ -380,3 +380,10 @@ button[type=submit]{
         top: 35%;
     }
 }
+
+@media only screen and (max-width: 801px){
+    .ave-big{
+        font-size: 90px;
+        top: 35%;
+    }
+}
