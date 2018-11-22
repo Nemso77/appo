@@ -383,7 +383,16 @@ button[type=submit]{
 
 @media only screen and (max-width: 801px){
     .ave-big{
-        font-size: 90px;
+        font-size: 120px;
         top: 35%;
+        letter-spacing: 120px;
+    }
+}
+
+@media only screen and (max-width: 692px){
+    .ave-big{
+        font-size: 90px;
+        top: 28%;
+        letter-spacing: 90px;
     }
 }
