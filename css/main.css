@@ -25,6 +25,11 @@
     src: url("/fonts/monserrat/Montserrat-Regular.otf")
 }
 
+@font-face{
+    font-family: awesome;
+    src: url("/fonts/fontawesome-free-5.5.0-web/css/all.min.css")
+}
+
 /*End Of Base Clases*/
 
 body{
@@ -301,5 +306,19 @@ button[type=submit]{
     .ave-big{
         font-size: 170px;
         top: 26%;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    .search{
+        display: none;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    .title::after{
+        
     }
 }
