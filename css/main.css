@@ -374,4 +374,9 @@ button[type=submit]{
     .button-text{
         background-color: #f8f8f8;
     }
+
+    .ave-big{
+        font-size: 95px;
+        top: 35%;
+    }
 }
