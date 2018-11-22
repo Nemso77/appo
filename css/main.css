@@ -5,15 +5,9 @@
 }
 
 .flex-wrap-row{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 @font-face{
@@ -33,7 +27,7 @@
 
 @font-face{
     font-family: awesome;
-    src: url("/fonts/fontawesome-free-5.5.0-web/css/all.min.css")
+    src: url("/fonts/fontawesome-free-5.5.0-web/webfonts/fa-solid-900.ttf")
 }
 
 /*End Of Base Clases*/
@@ -78,21 +72,11 @@ a {
     width: 100%;
     min-height: 45px;
     height: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
 }
 
@@ -134,13 +118,8 @@ a {
 
 @media only screen and (max-width: 489px) {
     .topnav{
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .currency{
@@ -156,13 +135,8 @@ a {
 
 @media only screen and (max-width: 300px) {
     .topnav{
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .currency{
@@ -171,15 +145,9 @@ a {
     }
 
     .userArea{
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .login{
@@ -209,8 +177,6 @@ a {
     min-width: 240px;
     min-height: 460px;
     z-index: 10;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
 }
 
@@ -224,10 +190,10 @@ a {
     padding: 0;
     z-index: 20;
     -moz-user-select: -moz-none;
+    -khtml-user-select: none;
     -webkit-user-select: none;
     -o-user-select: none;
-    -ms-user-select: none;
-        user-select: none;
+    user-select: none;
 }
 
 .ave-big{
@@ -240,42 +206,27 @@ a {
     left: 15%;
     letter-spacing: 170px;
     text-align: center;
+    -khtml-user-select: none;
     -webkit-user-select: none;
     -o-user-select: none;
-    -moz-user-select: none;
-     -ms-user-select: none;
-         user-select: none;
+    user-select: none;
 }
 
 .topbox{
     width: 100%;
     position: absolute;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
     z-index: 40;
     margin-top: 45px;
 }
 
 .navlist{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: row;
     text-transform: uppercase;
 }
 
@@ -296,13 +247,8 @@ a {
 }
 
 .navanchor a{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin: 0px 10px;
     text-decoration: none;
     color: #333;
@@ -328,6 +274,7 @@ button[type=submit]{
     text-transform: uppercase;
     color: #737373;
     position: absolute;
+    z-index: 75;
     right: 15%;
     bottom: 10%;
     font-size: 15px;
@@ -372,7 +319,59 @@ button[type=submit]{
         display: none;
     }
 
-    .title::after{
-        
+    .title{
+        left: 15%;
+        padding-right: 50%;
+    }
+
+    .ave-big{
+        font-size: 140px;
+        top: 28%;
+    }
+
+    .topbox{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .responsive-menu, .responsive-menu a{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .menu-dropdown, .fa-bars{
+        text-transform: uppercase;
+        font-family: 'monse';
+        display: flex;
+        flex-direction: row;
+        padding: 0px 5px;
+        color: #333;
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 981px){
+    .responsive-menu{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 913px){
+    .ave-big{
+        font-size: 120px;
+        top: 30%;
+    }
+}
+
+@media only screen and (max-width: 868px){
+    .main{
+        position: relative;
+    }
+
+    .button-text{
+        background-color: #f8f8f8;
     }
 }
