@@ -10,20 +10,6 @@
     flex-direction: row;
 }
 
-@font-face{
-    font-family: proxy;
-    src: url("/fonts/proximanova/Proxima\ Nova\ Bold.ttf")
-}
-
-@font-face{
-    font-family: monsebold;
-    src: url("/fonts/monserrat/Montserrat-Bold.otf")
-}
-
-@font-face{
-    font-family: monseregular;
-    src: url("/fonts/monserrat/Montserrat-Regular.otf")
-}
 
 @font-face{
     font-family: awesome;
@@ -198,18 +184,22 @@ a {
 
 .ave-big{
     position: absolute;
+    width: 100%;
     z-index: 30;
-    font-size: 250px;
+    font-size: 17vw;
     font-family: 'proxy';
     color: #575153;
     top: 20%;
-    left: 15%;
-    letter-spacing: 170px;
     text-align: center;
     -khtml-user-select: none;
     -webkit-user-select: none;
     -o-user-select: none;
     user-select: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-transform: uppercase;
+    justify-content: space-around;
 }
 
 .topbox{
@@ -278,7 +268,7 @@ button[type=submit]{
     right: 15%;
     bottom: 10%;
     font-size: 15px;
-    font-family: 'monse';
+    font-family: 'monseregular';
     border: 1.2px solid #737373;
     padding: 15px 35px;
     cursor: pointer;
@@ -289,26 +279,6 @@ button[type=submit]{
     text-decoration: none;
 }
 
-@media only screen and (max-width: 1160px){
-    .ave-big{
-        font-size: 230px;
-        top: 22%;
-    }
-}
-
-@media only screen and (max-width: 1115px){
-    .ave-big{
-        font-size: 200px;
-        top: 24%;
-    }
-}
-
-@media only screen and (max-width: 1050px){
-    .ave-big{
-        font-size: 170px;
-        top: 26%;
-    }
-}
 
 @media only screen and (max-width: 980px){
     .search{
@@ -321,12 +291,6 @@ button[type=submit]{
 
     .title{
         left: 15%;
-        padding-right: 50%;
-    }
-
-    .ave-big{
-        font-size: 140px;
-        top: 28%;
     }
 
     .topbox{
@@ -344,7 +308,7 @@ button[type=submit]{
 
     .menu-dropdown, .fa-bars{
         text-transform: uppercase;
-        font-family: 'monse';
+        font-family: 'monseregular';
         display: flex;
         flex-direction: row;
         padding: 0px 5px;
@@ -359,12 +323,6 @@ button[type=submit]{
     }
 }
 
-@media only screen and (max-width: 913px){
-    .ave-big{
-        font-size: 120px;
-        top: 30%;
-    }
-}
 
 @media only screen and (max-width: 868px){
     .main{
@@ -373,37 +331,6 @@ button[type=submit]{
 
     .button-text{
         background-color: #f8f8f8;
-    }
-
-    .ave-big{
-        font-size: 90px;
-        top: 35%;
-    }
-}
-
-@media only screen and (max-width: 801px){
-    .ave-big{
-        font-size: 120px;
-        top: 35%;
-        letter-spacing: 120px;
-    }
-}
-
-@media only screen and (max-width: 692px){
-    .ave-big{
-        font-size: 200px;
-        top: 25%;
-        letter-spacing: 60px;
-        left: 10%;
-    }
-}
-
-@media only screen and (max-width: 623px){
-    .ave-big{
-        font-size: 200px;
-        top: 25%;
-        letter-spacing: 30px;
-        left: 10%;
     }
 }
 
@@ -420,11 +347,6 @@ button[type=submit]{
     }
 }
 
-@media only screen and (max-width: 523px){
-    .ave-big{
-        display: none;
-    }
-}
 
 @media only screen and (max-width: 392px){
     .slider-image{
