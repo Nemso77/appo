@@ -1,0 +1,109 @@
+<ul class="tabs">
+    
+    <li class="tab">
+        <input type="radio" name="tabs" checked="checked" id="tab1" />
+        <label for="tab1">One</label>
+        <div id="tab-content1" class="content">
+          <h1>content 1</h1>
+        </div>
+    </li>
+    
+    <li class="tab">
+      <input type="radio" name="tabs" id="tab2" />
+      <label for="tab2">Two</label>   
+      <div id="tab-content2" class="content">
+          <h1>content 2</h1>  
+       </div>
+    </li>
+    
+  </ul>
+
+
+
+  ----------------------------------------
+
+
+.tabs{
+    width: 90%;
+    display: block;
+    position: relative;
+    font-family: 'monseregular';
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.tabs .tab{
+    float: left;
+    display: block;
+    font-size: 13px;
+}
+
+.tabs .tab>input[type="radio"] {
+    position: absolute;
+    top: -999999px;
+    left: -999999px;
+}
+
+.tabs .tab>label {
+    display: block;
+    padding: 6px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    color: #333333;
+    background: #ffffff;
+}
+
+.tabs .tab>label:hover{
+    color: #00d1d1;
+    background-color: #ffffff;
+}
+
+.tabs .tab>label:active{
+    color: #00d1d1;
+    background-color: #ffffff;
+}
+
+.tabs .content {
+    z-index: 0;/* or display: none; */
+    overflow: hidden;
+    width: 80%;
+    padding: 25px;
+    position: absolute;
+    top: 27px;
+    left: 0;
+    background: #ffffff;
+    color: #303030;
+    
+    opacity:0;
+    transition: opacity 400ms ease-out;
+}
+
+.tabs>.tab>[id^="tab"]:checked + label {
+    top: 0;
+    background: #ffffff;
+    color: #00d1d1;
+}
+
+.tabs>.tab>[id^="tab"]:checked ~ [id^="tab-content"] {
+    z-index: 1;/* or display: block; */
+    opacity: 1;
+    transition: opacity 2s ease-out;
+}
+
+@media only screen and (max-width: 655px){
+    .tabs {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+    }
+
+    .tabs .content{
+        position: absolute;
+        margin-top: 120px;
+        background-color: #fff;
+    }
+}
