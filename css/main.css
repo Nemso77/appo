@@ -445,3 +445,7 @@ button[type=submit]{
         background-color: #fff;
     }
 }
+
+.item-images{
+    max-width: 40%;
+}
