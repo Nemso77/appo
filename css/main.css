@@ -405,18 +405,19 @@ button[type=submit]{
 }
 
 .tabs .content {
-    z-index: 0;/* or display: none; */
+    display: none; 
     overflow: hidden;
-    width: 80%;
+    width: 100%;
     padding: 25px;
-    position: absolute;
     top: 27px;
     left: 0;
+    position: absolute;
     background: #ffffff;
     color: #303030;
-    
     opacity:0;
     transition: opacity 400ms ease-out;
+    display: flex;
+    justify-content: center;
 }
 
 .tabs>.tab>[id^="tab"]:checked + label {
@@ -446,6 +447,26 @@ button[type=submit]{
     }
 }
 
+
+.popular-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.content-column1, .content-column2{
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .item-images{
-    max-width: 40%;
+    max-width: 48%;
+    justify-content: space-between;
+    margin-bottom: 20px
+}
+
+.item-images-big{
+    margin-bottom: 20px;
 }
