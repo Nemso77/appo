@@ -429,7 +429,7 @@ input[type=radio]{
 
 .content-column1, .content-column2{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 49%;
@@ -451,4 +451,8 @@ input[type=radio]{
     max-height: 705px;
     height: auto;
     margin-bottom: 20px;
+}
+
+.small-images{
+    display: flex;
 }
