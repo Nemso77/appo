@@ -440,17 +440,20 @@ input[type=radio]{
     max-width: 420px;
     max-height: 500px;
     height: auto;
+    width: 48%;
     margin-bottom: 20px;
 }
 
 .item-images-big{
     position: relative;
+    width: 100%;
     max-width: 870px;
     max-height: 705px;
     height: auto;
     margin-bottom: 20px;
 }
 
-.small-images{
+/* .small-images{
     display: flex;
-}
+    justify-content: space-between;
+} */
