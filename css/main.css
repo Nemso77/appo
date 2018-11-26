@@ -436,6 +436,7 @@ input[type=radio]{
 }
 
 .item-images{
+    position: relative;
     max-width: 420px;
     max-height: 500px;
     width: 48%;
@@ -443,6 +444,7 @@ input[type=radio]{
 }
 
 .item-images-big{
+    position: relative;
     width: 100%;
     max-width: 870px;
     max-height: 705px;
