@@ -439,6 +439,7 @@ input[type=radio]{
     position: relative;
     max-width: 420px;
     max-height: 500px;
+    height: auto;
     width: 48%;
     margin-bottom: 20px;
 }
@@ -448,5 +449,6 @@ input[type=radio]{
     width: 100%;
     max-width: 870px;
     max-height: 705px;
+    height: auto;
     margin-bottom: 20px;
 }
