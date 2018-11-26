@@ -1,29 +1,29 @@
-.image{
+.image-parent{
     position: relative;
+    float: right;
+    margin-top: 400px;
 }
 
-.back-hover{
-    position: absolute;
-    right: 20%;
+.image-child2{
+    display: none;
 }
 
-.product-price{
-    position: absolute;
-    top: 15px;
-    left: 20px;
-    font-size: 21px;
-    color: #9a9a9a;
-    vertical-align: top;
-    font-family: 'monseregular';
-    cursor: pointer;
+.image-child{
+    display: none;
 }
 
-.product-price::before{
-    content: url('/imgs/icons/pound-sign-solid.svg');
-    display: inline-block;
-    width: 6px;
+.image-child:hover{
     position: absolute;
-    left: -8px;
-    top: -5px;
-    cursor: pointer;
+    right: 20px;
+    top: 5%;
+    border: 2px solid #fff;
+    z-index: 3;
+}
+
+.image-child2:hover{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    border: 2px solid #fff;
+    z-index: 3;
 }
