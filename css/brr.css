@@ -1,29 +1,19 @@
 .image-parent{
     position: relative;
-    float: right;
-    margin-top: 400px;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.image-child2{
-    display: none;
-}
 
-.image-child{
-    display: none;
-}
-
-.image-child:hover{
+.hover-images{
     position: absolute;
-    right: 20px;
-    top: 5%;
-    border: 2px solid #fff;
-    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    top: 3%;
+    right: 3%;
 }
 
-.image-child2:hover{
-    position: absolute;
-    right: 20px;
-    top: 30%;
-    border: 2px solid #fff;
-    z-index: 3;
+
+.hover{
+    margin-bottom: 5px; 
 }
