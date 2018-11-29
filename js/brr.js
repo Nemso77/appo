@@ -1,10 +1,10 @@
-document.getElementById("image-parent").onmouseover = function() {mouseOver()};
-document.getElementById("image-parent").onmouseout = function() {mouseOut()};
+document.querySelectorAll(".image-parent").onmouseover = function() {mouseOver()};
+document.querySelectorAll(".image-parent").onmouseout = function() {mouseOut()};
 
 function mouseOver() {
-    document.getElementById("hover-images").style.display = "flex";
+    document.querySelectorAll(".hover-images").style.display = "flex";
 }
 
 function mouseOut() {
-    document.getElementById("hover-images").style.display = "none";
+    document.querySelectorAll(".hover-images").style.display = "none";
 }
