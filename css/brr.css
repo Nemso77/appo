@@ -1,19 +1,20 @@
-.image-parent{
+#image-parent{
     position: relative;
-    display: flex;
-    justify-content: flex-end;
+    display: inline-block;
+    width: auto;
+    height: auto;
 }
 
 
-.hover-images{
+#hover-images{
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 3%;
-    right: 3%;
+    top: 15px;
+    right: 15px;
 }
 
 
-.hover{
-    margin-bottom: 5px; 
+#hover{
+    margin-bottom: 15px;
 }
