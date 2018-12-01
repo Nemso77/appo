@@ -236,7 +236,7 @@ a {
     flex-direction: row;
     justify-content: space-evenly;
     z-index: 40;
-    margin-top: 45px;
+    margin: 45px auto 0px auto;
 }
 
 .navlist{
