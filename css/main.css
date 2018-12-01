@@ -463,65 +463,77 @@ input[type=radio]{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    position: relative;
 }
 
 .book{
-    width: 30%;
     position: relative;
+    display: inline-block;
+    width: 30%;
+    height: auto;
 }
 
 .lookimages{
     width: 100%;
-    height: 100%;
-    position: relative;
+    height: auto;
 }
 
-.absolute-elements{
-    display: flex;
-    flex-direction: column;
-    top: 20px;
-    right: 30px;
-    text-transform: uppercase;
+.text{
     position: absolute;
+    right: 10%;
+    top: 10%;
+    font-size: 2.6vw;
+    text-transform: uppercase;
+    font-family: 'monsebold';
+    color: #575153;
+}
+
+.text2{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    font-size: 2.6vw;
+    text-transform: uppercase;
+    font-family: 'monseregular';
+    color: #575153;
+}
+
+.text3{
+    position: absolute;
+    right: 10%;
+    top: 35%;
+    font-size: 0.7vw;
+    line-height: 1.6;
+    text-transform: uppercase;
+    font-family: 'monseregular';
+    color: #575153;
+    width: 50%;
     text-align: right;
 }
 
-.lookbook-title{
-    font-family: 'monsebold';
-    font-size: 4vw;
+.link{
+    font-size: 1vw;
+    font-family: 'monseregular';
     color: #575153;
+    text-transform: uppercase;
+    background-color: #f8f8f8;
+    border: 1.4px solid #575153;
+    padding: 3.2vh 2.9vw;
+    letter-spacing: 0.3vw;
     position: absolute;
-    right: 3%;
-    top: 4%;
-    z-index: 3;
+    top:  65%;
+    right: 10%;
 }
 
-.title-span{
+.link:hover{
+    font-size: 1vw;
     font-family: 'monseregular';
-    font-size: 48px;
-    color: #575153;
-    position: absolute;
-    right: 0px;
-    z-index: 3;
-    top: 60px;
-}
-
-.lookbook-desc{
-    font-family: 'monseregular';
-    font-size: 13px;
-    color: #575153;
-    position: absolute;
-    right: 0;
-    top: 100px;
-}
-
-.lookbook-link{
-    font-family: 'monseregular';
-    font-size: 20px;
-    padding: 20px 30px;
-    color: #fff;
+    color: #ffffff;
+    text-transform: uppercase;
     background-color: #00d1d1;
-    bottom: 20px;
+    border: none;
+    padding: 3.2vh 2.9vw;
+    letter-spacing: 0.3vw;
     position: absolute;
+    top: 65%;
+    right: 10%;
 }
