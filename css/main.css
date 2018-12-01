@@ -230,7 +230,7 @@ a {
 }
 
 .topbox{
-    width: 100%;
+    width: 90%;
     position: absolute;
     display: flex;
     flex-wrap: wrap;
@@ -238,7 +238,6 @@ a {
     justify-content: space-evenly;
     z-index: 40;
     margin: 45px auto !important;
-    padding: 0px auto !important;
 }
 
 .navlist{
