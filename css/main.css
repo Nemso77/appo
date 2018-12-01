@@ -482,6 +482,22 @@ button[type=submit]{
     .promote-button{
         left: 5%;
     }
+
+    .footer-links{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        flex-direction: row  !important;
+        justify-content: center  !important;
+        padding-top: 60px  !important;
+        margin-right: 10%  !important;
+        margin-left: 10%  !important;
+        justify-content: space-around !important;
+    }
+
+    .information, .why-buy, .account, .lookbook-footer, .contact{
+        width: 75%  !important;
+        margin-bottom: 50px !important;
+    }
 }
 
 /* header part ended : */

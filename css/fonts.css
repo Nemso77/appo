@@ -13,3 +13,8 @@
     src: url("/fonts/monserrat/Montserrat-Regular.otf")
 }
 
+
+@font-face{
+    font-family: monselight;
+    src: url("/fonts/monserrat/Montserrat-Light.otf")
+}
