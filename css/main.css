@@ -405,6 +405,9 @@ button[type=submit]{
         float: right;
     }
 
+    .footer-links{
+        margin: auto 2% !important;
+    }
 
 }
 
@@ -423,6 +426,22 @@ button[type=submit]{
     .button-text{
         background-color: #f8f8f8;
     }
+
+    .footer-links{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        flex-direction: row  !important;
+        justify-content: center  !important;
+        padding-top: 60px  !important;
+        margin-right: 10%  !important;
+        margin-left: 10%  !important;
+        justify-content: space-around !important;
+    }
+
+    .information, .why-buy, .account, .lookbook-footer, .contact{
+        width: 30%  !important;
+        margin-bottom: 50px !important;
+    }
 }
 
 @media only screen and (max-width: 538px){
@@ -437,7 +456,21 @@ button[type=submit]{
         padding: 0px;
     }
 
-    
+    .footer-links{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        flex-direction: row  !important;
+        justify-content: center  !important;
+        padding-top: 60px  !important;
+        margin-right: 10%  !important;
+        margin-left: 10%  !important;
+        justify-content: space-around !important;
+    }
+
+    .information, .why-buy, .account, .lookbook-footer, .contact{
+        width: 45%  !important;
+        margin-bottom: 50px !important;
+    }
 }
 
 
@@ -646,6 +679,7 @@ input[type=radio]{
 
 .footer-links{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     padding-top: 60px;
@@ -656,17 +690,6 @@ input[type=radio]{
 .information, .why-buy, .account, .lookbook-footer, .contact{
     width: 20%;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .footer-nav-li{
     margin-bottom: 13px;
