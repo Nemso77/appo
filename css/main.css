@@ -409,6 +409,17 @@ button[type=submit]{
         margin: auto 2% !important;
     }
 
+    .footer-images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .awward-winner, .social-icons{
+        margin: 30px auto;
+        width: 65% !important;
+    }
+
 }
 
 @media only screen and (min-width: 981px){
@@ -712,3 +723,45 @@ input[type=radio]{
     cursor: pointer;
 }
 
+.footer-images{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-bottom: 20px 5%;
+}
+
+.awward-winner{
+    font-size: 36px;
+    display: inline-block;
+    width: 45%;
+    height: 200px;
+    background-color: #222222;
+    color: #ffffff;
+    letter-spacing: 3px;
+    font-family: 'monsebold';
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    line-height: 1.45;
+}
+
+.social-icons{
+    background-color: #00c8c8;
+    width: 45%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-images a{
+    margin: 0px 10px;
+}
