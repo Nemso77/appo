@@ -190,7 +190,7 @@ a {
     min-height: 460px;
     z-index: 10;
     display: flex;
-    justify-content: center;
+    justify-content: center !important;
 }
 
 .slider-image{
@@ -237,7 +237,7 @@ a {
     flex-direction: row;
     justify-content: space-evenly;
     z-index: 40;
-    margin: 45px auto;
+    margin: 45px auto !important;
 }
 
 .navlist{
