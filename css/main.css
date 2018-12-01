@@ -235,9 +235,9 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-evenly !important;
     z-index: 40;
-    margin: 45px auto !important;
+    margin: 45px 10% !important;
 }
 
 .navlist{
@@ -324,7 +324,7 @@ button[type=submit]{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .responsive-menu, .responsive-menu a{
