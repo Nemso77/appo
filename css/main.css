@@ -430,7 +430,7 @@ button[type=submit]{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .title{
@@ -582,7 +582,7 @@ input[type=radio]{
 .text2{
     position: absolute;
     right: 10%;
-    top: 20%;
+    top: 22%;
     font-size: 2.6vw;
     text-transform: uppercase;
     font-family: 'monseregular';
@@ -628,4 +628,47 @@ input[type=radio]{
     position: absolute;
     top: 65%;
     right: 10%;
+}
+
+/* footer */
+
+.footer{
+    margin-top: 60PX;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'monseregular';
+    font-size: 13px;
+    color: #727272;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 60px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.information, .why-buy, .account, .lookbook-footer, .contact{
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-nav-li{
+    margin-bottom: 13px;
+    cursor: pointer;
 }
