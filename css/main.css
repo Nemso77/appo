@@ -89,6 +89,17 @@ a {
     .currency{
         margin-left: 5%;
     } 
+
+    .lookbooks{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+
+    .book{
+        width: 75% !important;
+        margin: 20px auto !important;
+    }
 }
 
 @media only screen and (max-width: 490px) {
@@ -114,16 +125,6 @@ a {
         width: 100% !important;
     }
 
-    .lookbooks{
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: center !important;
-    }
-
-    .book{
-        width: 75% !important;
-        margin: 20px auto !important;
-    }
 }
 
 
