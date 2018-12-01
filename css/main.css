@@ -99,6 +99,31 @@ a {
     .currency{
         margin-left: 1%;
     }
+
+    .popular-content{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        flex-direction: column !important;
+    }
+
+    .content-column1{
+        width: 100% !important;
+    }
+
+    .content-column2{
+        width: 100% !important;
+    }
+
+    .lookbooks{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+
+    .book{
+        width: 75% !important;
+        margin: 20px auto !important;
+    }
 }
 
 
