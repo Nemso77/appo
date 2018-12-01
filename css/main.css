@@ -162,6 +162,10 @@ a {
         margin-left: 5%;
     } 
 
+    .social-images{
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
 }
 
 @media only screen and (max-width: 490px) {
@@ -187,7 +191,10 @@ a {
         width: 100% !important;
     }
 
-    
+    .social-images{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
@@ -204,6 +211,15 @@ a {
 
     .userArea{
         margin-right: 0%;
+    }
+
+    .awward-winner{
+        font-size: 20px !important;
+    }
+
+    .social-images{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -726,9 +742,9 @@ input[type=radio]{
 
 .footer-images{
     display: flex;
-    justify-content: space-evenly;
-    width: 90%;
-    margin-bottom: 20px 5%;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px 10%;
 }
 
 .awward-winner{
@@ -765,4 +781,10 @@ input[type=radio]{
 
 .social-images a{
     margin: 0px 10px;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram, .fa-pinterest-p{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0px 20px;
 }
