@@ -88,7 +88,7 @@ a {
 
     .currency{
         margin-left: 5%;
-    }
+    } 
 }
 
 @media only screen and (max-width: 490px) {
@@ -516,8 +516,8 @@ input[type=radio]{
     color: #575153;
     text-transform: uppercase;
     background-color: #f8f8f8;
-    border: 1.4px solid #575153;
-    padding: 3.2vh 2.9vw;
+    border: 1px solid #575153;
+    padding: 1.5vw 2vw;
     letter-spacing: 0.3vw;
     position: absolute;
     top:  65%;
@@ -531,7 +531,7 @@ input[type=radio]{
     text-transform: uppercase;
     background-color: #00d1d1;
     border: none;
-    padding: 3.2vh 2.9vw;
+    padding: 1.5vw 2vw;
     letter-spacing: 0.3vw;
     position: absolute;
     top: 65%;
