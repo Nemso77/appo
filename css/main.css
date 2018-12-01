@@ -79,16 +79,6 @@ a {
     .currency{
         margin-left: 10%;
     }
-}
-
-@media only screen and (max-width: 570px) {
-    .userArea{
-        margin-right: 5%;
-    }
-
-    .currency{
-        margin-left: 5%;
-    } 
 
     .lookbooks{
         display: flex !important;
@@ -100,6 +90,16 @@ a {
         width: 75% !important;
         margin: 20px auto !important;
     }
+}
+
+@media only screen and (max-width: 570px) {
+    .userArea{
+        margin-right: 5%;
+    }
+
+    .currency{
+        margin-left: 5%;
+    } 
 }
 
 @media only screen and (max-width: 490px) {
