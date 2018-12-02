@@ -806,5 +806,5 @@ input[type=radio]{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    line-height: 40px;
+    line-height: 30px;
 }
