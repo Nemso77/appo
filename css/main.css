@@ -153,7 +153,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 571px) {
     .userArea{
         margin-right: 5%;
     }
@@ -162,9 +162,8 @@ a {
         margin-left: 5%;
     } 
 
-    .social-images{
-        display: flex !important;
-        flex-wrap: wrap !important;
+    .awward-winner{
+        font-size: 24px !important;
     }
 }
 
@@ -766,27 +765,25 @@ input[type=radio]{
 }
 
 .social-icons{
-    background-color: #00c8c8;
     width: 45%;
-    height: 200px;
+    max-height: 200px;
+    min-height: 100px;
+    height: auto;
+    background-color: #00d1d1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .social-images{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .social-images a{
-    margin: 0px 10px;
-}
-
-.fa-facebook-f, .fa-twitter, .fa-instagram, .fa-pinterest-p{
-    color: #ffffff;
+    color: #f8f8f8;
     font-size: 30px;
-    margin: 0px 20px;
 }
 
 .author{
