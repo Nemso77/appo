@@ -1,0 +1,200 @@
+body{
+    font-family: 'dosismed';
+    text-decoration: none;
+}
+
+.website-top{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    min-height: 70px;
+    height: auto;
+}
+
+.title{
+    color: #00fff1;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.nav-ul{
+    display: flex;
+}
+
+.nav-li a{
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+
+.right-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+}
+
+.app-link{
+    font-size: 14px;
+    color: #223047;
+    text-decoration: none;
+    background-color: #00fff1;
+    padding: 12px 30px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 980px){
+    .banner-contents{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-contents{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 130px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+
+    .left-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    } 
+}
+
+@media only screen and (max-width: 645px){
+    .website-top{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .website-top{
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .website-top *{
+        margin-bottom: 8px;
+    }
+}
+
+.banner{
+    width: 100%;
+    background-color: #223047;
+}
+
+.banner-contents{
+    width: 65%;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+
+.left-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+} 
+
+.left-content *{
+    margin-bottom: 50px;
+    line-height: 1.4;
+}
+
+.title-left{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.desc-left{
+    color: #4e596c;
+    font-size: 14px;
+}
+
+.reach-out{
+    font-size: 14px;
+    background-color: #223047;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 12px 30px;
+    border: 1px solid #ffffff;
+    border-radius: 11px;
+    margin-left: 20px;
+}
+
+.buttons-left{
+    display: flex;
+    width: 100%;
+}
+
+.right-content{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.phone{
+    position: absolute;
+    bottom: -80px;
+}
+
+.phone-parts{
+    width: 19vw;
+    height: 520px;
+    border: 10px solid #161f32;
+    border-radius: 35px;
+    background-color: #00fff1;
+    display: flex;
+    justify-content: center;
+}
+
+.island{
+    width: 11vw;
+    height: 20px;
+    background-color: #000;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.earpads{
+    width: 3vw;
+    height: 5px;
+    background-color: #3d4652;
+    border-radius: 5px;
+    margin-right: 6px;
+}
+
+.front-camera{
+    width: 0.4vw;
+    height: 5px;
+    background-color: #3d4652;
+    border-radius: 4px;
+}
+
