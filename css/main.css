@@ -213,8 +213,7 @@ p::selection, a::selection{
     }
 
     .app-top{
-        display: flex;
-        justify-content: center;
+        
     }
     .app-middle{
         display: flex;
@@ -223,8 +222,12 @@ p::selection, a::selection{
         width: 70%;
     }
 
-    .middle-li{
-        width: 80%;
+    .middle-li {
+        width: 100% !important;
+    }
+
+    .middle-li-desc{
+        margin-bottom: 20px !important;
     }
 }
 
@@ -604,3 +607,4 @@ p::selection, a::selection{
     font-size: 35px;
     margin: 25px;
 }
+
