@@ -126,6 +126,43 @@ p::selection, a::selection{
         border-radius: 4px;
     }
 
+    .app-top{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .app-middle{
+        display: flex !important;
+        width: 100% !important;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .middle-li{
+        width: 40% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .middle-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0px !important;
+    }
+
+    .middle-text *{
+        margin: 0px !important;
+    }
+
+    .phone-image{
+        width: 30vw;
+        height: 90vh;
+        margin: auto;
+    }
 }
 
 @media only screen and (max-width: 865px){
@@ -173,6 +210,21 @@ p::selection, a::selection{
 
     .services-title{
         width: 65% !important;
+    }
+
+    .app-top{
+        display: flex;
+        justify-content: center;
+    }
+    .app-middle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+    }
+
+    .middle-li{
+        width: 80%;
     }
 }
 
@@ -498,6 +550,7 @@ p::selection, a::selection{
 
 .phone-image{
     width: 45%;
+    position: relative;
 }
 
 .phone-image-img{
@@ -505,6 +558,8 @@ p::selection, a::selection{
     height: 100%;
     user-select: none;
     -moz-user-select: none;
+    position: absolute;
+    bottom: -70px;
 }
 
 .app-middle{
