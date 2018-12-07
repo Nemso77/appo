@@ -733,3 +733,91 @@ p::selection, a::selection{
     background-color: #ffffff;
     box-shadow: 2px -2px 2px 2px #B3B3B3;
 }
+
+
+
+
+        /* Video Section */
+
+        .video-section{
+            width: 40%;
+            margin:  auto;
+            text-align: center;
+            padding-top: 200px;
+            padding-bottom: 230px;
+        }
+        
+        .fa-play-circle{
+            font-size: 76px;
+            color: #00fff0;
+            margin-bottom: 30px;
+            cursor: pointer;
+        }
+        
+        .video-warning{
+            font-size: 17px;
+            color: #ffffff;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+        
+        .video-text{
+            font-size: 14px;
+            color: #ffffff;
+            line-height: 2;
+        }
+        
+        /* Globe */
+        
+        .globe{
+            background-image: url('/imgs/globe.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            min-height: 644px;
+            max-height: 645px;
+        }
+        
+        .globe *{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-top: 200px;
+        }
+        
+        .globe-title{
+            font-size: 30px;
+            color: #223047;
+            line-height: 1.5;
+            padding-bottom: 20px;
+        }
+        
+        .globe-text{
+            line-height: 2;
+            font-size: 17px;
+            color: #223047;
+            margin-bottom: 60px;
+            padding-top: 0;
+        }
+        
+        .globe-a{
+            width: 175px;
+            margin: 0 auto;
+            font-size: 17px;
+            color: #223047;
+            text-decoration: none;
+            background-color: #00fff1;
+            padding: 12px 30px;
+            border-radius: 10px;
+        }
+        
+        .testimonial{
+            font-size: 14px;
+            width: 45%;
+            color: #00fff0;
+            padding-top: 140px;
+            padding-bottom: 140px;
+            line-height: 1.7;
+            text-align: center;
+        }
