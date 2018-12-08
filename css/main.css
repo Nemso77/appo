@@ -203,6 +203,10 @@ p::selection, a::selection{
     .footer{
         width: 80% !important;
     }
+
+    .footer-bottom{
+        width: 80% !important;
+    }
 }
 
 @media only screen and (max-width: 645px){
@@ -296,6 +300,17 @@ p::selection, a::selection{
     .footer{
         width: 90% !important;
     }
+
+    .footer-bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+    }
+
+    .copyright{
+        margin-bottom: 30px;
+    }
+
 }
 
 @media only screen and (max-width: 520px){
@@ -418,6 +433,10 @@ p::selection, a::selection{
 
     .abs-button-a{
         padding: 12.5px 60px !important;
+    }
+
+    .footer-bottom{
+        width: 100% !important;
     }
 }
 
