@@ -199,6 +199,10 @@ p::selection, a::selection{
     .app-bottom-child{
         width: 80% !important;
     }
+
+    .footer{
+        width: 80% !important;
+    }
 }
 
 @media only screen and (max-width: 645px){
@@ -288,6 +292,10 @@ p::selection, a::selection{
         margin-right: auto;
         margin-bottom: 30px;
     }
+
+    .footer{
+        width: 90% !important;
+    }
 }
 
 @media only screen and (max-width: 520px){
@@ -360,6 +368,26 @@ p::selection, a::selection{
 
     .video-text{
         width: 100% !important;
+    }
+
+    .footer{
+        width: 80% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: space-evenly !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .footer-ul{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-li{
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
 }
 
@@ -639,6 +667,10 @@ p::selection, a::selection{
     border-radius: 10px;
 }
 
+.pres-anchor:hover{
+    box-shadow: 0px 0px 25px 4px rgba(0,255,241,0.45);
+}
+
 .pres-image-child{
     width: 100%;
 }
@@ -673,6 +705,10 @@ p::selection, a::selection{
     display: flex;
     margin-bottom: 20px;
     align-items: center;
+}
+
+.middle-li:hover{
+    box-shadow: 0px 0px 25px 6px rgba(0,255,241,0.56);
 }
 
 .middle-li:hover{
@@ -813,6 +849,10 @@ p::selection, a::selection{
     cursor: pointer;
 }
 
+.fa-play-circle:hover{
+    color: #f00;
+}
+
 .video-warning{
     font-size: 17px;
     color: #ffffff;
@@ -871,6 +911,7 @@ p::selection, a::selection{
     background-color: #00fff1;
     padding: 12px 30px;
     border-radius: 10px;
+    box-shadow: 0px 0px 25px 4px rgba(0,255,241,0.45);
 }
 
 .testimonial{
@@ -924,6 +965,10 @@ p::selection, a::selection{
     display: flex;
     justify-content: space-around;
 }
+
+.app-download-imgs:hover{
+    box-shadow: none;
+}
 .abs-button{
     position: absolute;
     bottom: 0;
@@ -937,4 +982,51 @@ p::selection, a::selection{
     background-color: #00fff0;
     padding: 25px 120px;
     border-radius: 2px;
+    box-shadow: 0px 0px 20px 7px rgba(0,255,241,0.45);
+}
+
+/* footer */
+
+.footer{
+    margin-top: 80px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.0;
+}
+
+.footer-p{
+    font-size: 17px;
+    color: #223047;
+    margin-bottom: 10px;
+}
+
+.footer-a{
+    font-size: 14px;
+    color: #97a4be;
+    text-decoration: none;
+}
+
+
+
+/* footer bottom */
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    min-height: 100px;
+}
+
+.copyright-p{
+    font-size: 17px;
+    color: #00fff0;
+}
+
+.social-li *{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0 9px;
+    text-decoration: none;
 }
