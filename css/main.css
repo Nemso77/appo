@@ -898,7 +898,7 @@ p::selection, a::selection{
 /* Globe */
 
 .globe{
-    background-image: url('/imgs/globe.png');
+    background-image: url('imgs/globe.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
